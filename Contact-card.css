@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   color: #1a2d48;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: #f4f4f4;
+}
+
+.container {
+   width: 320px;
+   display: flex;
+   flex-direction: column;
+   background: #ffffff;
+   padding: 35px 30px 30px 30px;
+   overflow: hidden;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 8px 8px 25px #d0d0d0;
+}
+
+.head {
+   width: 100%;
+}
+
+.head span {
+   font-weight: 700;
+}
+
+.pic {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+}
+
+.pic img {
+   width: 65px;
+   border-radius: 8px;
+}
+
+.info {
+   width: 100%;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.info span:first-child {
+   font-weight: 900;
+   font-size: 18px;
+   color: #111111;
+}
+
+.info span {
+   font-size: 12px;
+   margin-top: 3px;
+   color: #9c9191;
+}
+
+.btns {
+   width: 100%;
+   display: flex;
+   margin-top: 25px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.btns div {
+   width: 40px;
+   height: 40px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #afafaf;
+}
+
+.btns div span {
+   position: relative;
+   top: 12px;
+   font-weight: 500;
+   font-size: 10px;
+}
+
+.btns div i {
+   color: #ffffff;
+   font-size: 21px;
+   margin-top: 16px;
+}
+
+.info-section {
+   width: 100%;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+}
+
+.info-section span {
+   font-size: 12px;
+   color: #8c8787;
+}
+
+.info-section #email {
+   font-weight: 800;
+   font-size: 13px;
+   color: #111111;
+}
+
+.info-section #num {
+   margin-top: 10px;
+}
+
+.socail-btn {
+   width: 100%;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   border-top: 1px solid;
+}
+
+.socail-btn div {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-top: 15px;
+}
+
+.socail-btn img{
+   width: 100%;
+}
