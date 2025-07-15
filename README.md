@@ -34,7 +34,7 @@ You just need a web browser to view this project. No specific server setup is re
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourGitHubUsername/your-repo-name.git](https://github.com/YourGitHubUsername/your-repo-name.git)
+    git clone clone https://github.com/Vishnuk0476/Contact-card.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
